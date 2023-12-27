@@ -1,0 +1,29 @@
+.inner_Form {
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+  label {
+    font-size: 14px;
+    font-family: "Rethink Sans", sans-serif;
+  }
+}
+
+.user_Instruction_Wrap_Form {
+  margin-bottom: 10px;
+  p {
+    color: white;
+    font-size: 18px;
+    font-family: monospace;
+    line-height: 14px;
+    text-align: right;
+  }
+  padding-bottom: 10px;
+  // border-bottom: 1px solid grey;
+}
+
+.spacer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

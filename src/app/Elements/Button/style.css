@@ -1,0 +1,59 @@
+.button {
+  width: max-content;
+  height: 40px;
+  border: 0.5px solid #acacac;
+  border-radius: 8px;
+  padding: 5px 10px 5px 10px;
+  color: #303030;
+  cursor: pointer;
+
+  animation: transitionColorUnDisable 0.3s ease-in forwards;
+}
+
+.button:hover {
+  border: none;
+  border: 0.5px solid transparent;
+  animation: transitionColorActive 0.5s ease-in forwards;
+}
+
+.button:disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  color: #8a8a8a;
+
+  animation: transitionColorDisabled 0.3s ease-in forwards;
+}
+
+button p {
+  font-weight: 500;
+}
+
+@keyframes transitionColorUnDisable {
+  0% {
+    background-color: inherit;
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes transitionColorDisabled {
+  0% {
+    background-color: inherit;
+  }
+
+  100% {
+    background-color: #bcbcbc;
+  }
+}
+
+@keyframes transitionColorActive {
+  0% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: #9ADE7B;
+  }
+}

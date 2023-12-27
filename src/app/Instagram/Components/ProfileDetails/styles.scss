@@ -1,0 +1,12 @@
+.inner_ProfileDetails {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 33%;
+  margin: 0 auto;
+
+  @media(min-width: 768px) {
+    gap: 40px;
+  }
+}

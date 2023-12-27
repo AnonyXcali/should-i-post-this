@@ -1,0 +1,41 @@
+.inner_Tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+
+    li {
+      display: flex;
+      align-items: center;
+      opacity: 0.5;
+    }
+
+    li button {
+      width: 63px;
+      height: 51px;
+      background: transparent;
+      border: none;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: rgb(245, 245, 245);
+      cursor: pointer;
+    }
+
+    li[data-selected="true"] {
+      border-top: 0.5px solid white;
+      opacity: 1;
+    }
+
+
+    @media(min-width: 768px) {
+      gap: 50px;
+    }
+
+    
+  }
+}

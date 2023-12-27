@@ -1,0 +1,20 @@
+.inner_Select {
+  height: 40px;
+  background: #0d0d0d;
+  font-family: monospace;
+  border-radius: 4px;
+  padding: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background-image: url('/arrowDown.png');
+    /* Replace 'path_to_custom_arrow_icon.svg' with your arrow icon path */
+  background-position: 96%;
+  background-repeat: no-repeat;
+  background-size: 14px;
+}
+
+.inner_Select:focus-visible {
+  outline: 1px solid rgb(248, 248, 248);
+}

@@ -1,0 +1,32 @@
+.file-input {
+  width: 100%;
+  background: transparent;
+  color: black;
+  border: 0.5px solid #acacac;
+  height: 40px;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+input[type=file] {
+  width: 350px;
+  max-width: 100%;
+  color: #303030;
+  padding: 0px;
+  background: #fff;
+  border-radius: 8px;
+  border: 0.5px solid #acacac;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: rgb(50, 99, 182);
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+  height: 40px;
+}

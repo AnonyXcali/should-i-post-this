@@ -1,0 +1,102 @@
+.inner_ImageWelcomeGrid {
+  display: flex;
+  height: calc(50vh + 150px);
+  border-radius: 8px;
+  width: 100%;
+  background-image: url("/mesh-98.png");
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+
+  position: relative;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 30px;
+
+
+  .inner_Grid {
+    // position: absolute;
+    // bottom: 0;
+    // right: 0;
+    padding: 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    gap: 72px;
+    align-items: flex-end;
+    
+    p, .inner_Welcome_Title {
+      font-size: 5rem;
+      font-family: "Rethink Sans", sans-serif;
+
+
+      @media (max-width: 768px) {
+        font-size: 32px;
+      }
+    }
+
+    @media (max-width: 768px) {
+        justify-content: flex-end;
+        gap: 20px;
+        padding: 0;
+      }
+  }
+
+  @media (max-width: 768px) {
+    padding: 30px 20px 20px 30px;
+  }
+
+}
+
+/**
+.inner_ImageWelcomeGrid {
+  display: flex;
+  height: calc(50vh + 150px);
+  border-radius: 8px;
+  width: 100%;
+  background-image: url("/mesh-98.png");
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+
+  position: relative;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 30px;
+  
+}
+
+  .inner_Grid {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    gap: 72px;
+    align-items: flex-end;
+}
+    
+    p, .inner_Welcome_Title {
+      font-size: 6rem;
+      font-family: "Rethink Sans", sans-serif;
+
+      @media (max-width: 768px) {
+        font-size: 20px;
+      }
+    }
+
+    @media (max-width: 768px) {
+        justify-content: flex-end;
+      }
+  }
+
+}
+*/

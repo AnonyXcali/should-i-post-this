@@ -1,0 +1,15 @@
+.inner_Button {
+  height: 40px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.2px solid #262626;
+  font-family: monospace;
+
+  &:hover {
+    background-color: #292828;
+  }
+
+  transition: background-color 0.5s cubic-bezier(0, 1.03, .38, .95);
+}

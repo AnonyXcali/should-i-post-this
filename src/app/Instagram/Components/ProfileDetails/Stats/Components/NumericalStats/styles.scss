@@ -1,0 +1,27 @@
+.inner_NumericalStats {
+  
+  p {
+    font-family: "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto", Helvetica, Arial, sans-serif;    color: white;
+    font-size: 16px;
+  }
+}
+
+.div_wrap {
+  display: flex;
+  width: 100%;
+  gap: 22px;
+
+  .statBox {
+    display: flex;
+    gap: 3px;
+  }
+
+  .stat_Number {
+    font-weight: 400;
+  }
+
+    .stat_Title {
+      font-weight: 300;
+    }
+}
+

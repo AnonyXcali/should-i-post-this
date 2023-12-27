@@ -1,0 +1,28 @@
+.inner_ImageGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 0 auto;
+  
+  @media (min-width: 768px) {
+    max-width: 52vw;
+  }
+}
+
+.inner_ImageSquare {
+  flex: 1 0 calc(33% - 5px);
+  background: grey;
+
+  & img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  @media (min-width: 768px) {
+    flex: 1 0 calc(33.33% - 10px);
+    /* Adjust the width and gap */
+    position: relative;
+    overflow: hidden;
+  }
+}
